@@ -1,0 +1,63 @@
+/************************************
+** コピーボタン関係
+************************************/
+.cpytext{
+    position: relative;
+}
+button.cpybtn{
+    cursor: pointer;
+    color: #8d8989;
+    font-size: 17px;
+    border: 1px solid #333;
+    margin: 0px 5px;
+    padding: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+.balloon_top {
+    width: 150px;
+    position: absolute;
+    bottom: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #666666c7;
+    font-size: 0.7em;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+.balloon_top::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top: 12px solid #666666c7;
+    position: absolute;
+    top: 99%;
+}
+pre.wp-block-code {
+    position: relative;
+}
+pre button.cpybtn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #666;
+    border-radius: 8px;
+}
+pre .balloon_top {
+    bottom: initial;
+    right: 60px;
+    top: 5px;
+    background-color: #333;
+}
+pre .balloon_top::before {
+    border: 10px solid transparent;
+    border-left: 12px solid #333;
+    right: -22px;
+    top: initial ;
+}
