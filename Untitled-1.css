@@ -61,3 +61,28 @@ pre .balloon_top::before {
     right: -22px;
     top: initial ;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ttl_frame8 {
+  font-weight: bold;
+  padding: 0.5em 1em;
+  margin-left: 5px;
+  margin-right: 5px;
+  outline: 3px solid #4c9ac0;
+  outline-offset: 5px;
+  background: linear-gradient(-45deg, transparent 0 20px, #fff 20px calc(100% - 20px), transparent calc(100% - 20px)),
+              repeating-linear-gradient(-45deg, #4c9ac0 0 2px, #fff 2px 6px);
+}
